@@ -11,7 +11,7 @@ from langchain.tools import Tool
 from langchain_core.prompts import PromptTemplate
 
 # ---- Step 1: Load API Key -----------------------------------
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAd0fC-7Wy3HI4tqQhwEZEYNRITa0TbgrA"
+os.environ["GOOGLE_API_KEY"] = "my_api_key"
 
 # ---- Step 2: Create LLM -------------------------------------
 llm = ChatGoogleGenerativeAI(
